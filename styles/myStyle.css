@@ -1,0 +1,76 @@
+html,
+body {
+  /* overflow-x: hidden; */
+  width: 100vw;
+  height: 100%;
+}
+
+.body-background {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#hero {
+  background: linear-gradient(
+      to bottom right,
+      rgb(20, 20, 20, 0.85),
+      rgb(20, 20, 20, 0.85)
+    ),
+    url("../public/images/intro-bg.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.divider-section {
+  position: relative;
+}
+#about {
+  position: relative;
+}
+.custom-shape-divider-bottom-1739287657 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1739287657 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 89px;
+}
+
+.custom-shape-divider-bottom-1739287657 .shape-fill {
+  fill: #2b2b2b;
+}
+
+.custom-shape-divider-bottom-1739287657 .shape-fill-dark {
+  fill: #232323;
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  padding-bottom: 0.3rem;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease-in-out;
+  -webkit-transition: background-size 0.3s ease-in-out;
+  -moz-transition: background-size 0.3s ease-in-out;
+  -ms-transition: background-size 0.3s ease-in-out;
+  -o-transition: background-size 0.3s ease-in-out;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#d69667, #d69667);
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}

@@ -14,11 +14,10 @@ module.exports = {
         padding: "1rem",
       },
       colors: {
-        primary: "#0F172A",
-        secondary: "#1E293B",
+        primary: "#D69667",
         light: "#fff",
-        txt: "#8B9BAF",
-        tertiary: "#0EA5E9",
+        dark: "#2B2B2B",
+        secondaryDark: "#232323",
       },
       fontFamily: {
         poppins: ["Poppins"],
